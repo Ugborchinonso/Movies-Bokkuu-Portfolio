@@ -1,0 +1,94 @@
+html{background-color: rgb(18, 18, 18);
+}
+*{color:white;
+}
+.topmost{
+    width:100%; height:auto;
+    background-color: rgb(6, 6, 129);
+}
+div.topmost>img{
+    float: right;
+}
+h1{margin-top:3px;
+    font-size: 38pt;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(107, 107, 90, 0.83);
+}
+h1::first-letter{
+    color:rgb(146, 17, 35);
+    font-size:46pt;
+}
+span.nearH1{background-color: rgba(107, 107, 90, 0.83);
+    text-align: center;
+    font-size:10pt;
+}
+p.nearH1{
+    font-size:10pt;
+    font-family:cursive;
+}
+input{border-radius:10%;
+    border:2px solid red;  
+}
+button{
+    border-radius:10%; border: 4px outset rgb(29, 6, 66);
+    background-color: rgb(28, 8, 119);
+    padding:8px; margin-top: 4px;
+    font-size: 8pt;
+}
+ul.episodes{
+    list-style-type: none;
+    text-decoration-style: none;
+}    
+ul.none{ 
+    list-style-type: none;
+    display:flex; gap: 12px;  
+    justify-content:center;
+    font-size:small; font-family: 'Courier New', Courier, monospace;
+}
+img{
+    width:250px; height:250px;
+}
+p.nearForm{
+    font-size:x-small;
+}
+label{
+    font-size:10pt;
+}
+.ToTop{
+    width: 30px; height:30px;
+    position: fixed;
+    bottom:2px; right:8px;
+    border-radius:50%;
+    background-color: rgb(65, 39, 6);
+    color:rgb(6,6,6);
+    text-align: center;
+    font-size:8pt;
+    font-family: monospace;
+    text-decoration-style: none;
+}
+footer{
+    margin-bottom: 25px;
+    font-size:10pt; font-weight:lighter;
+}
+footer.mainF{ border-radius:2%;
+    background-color: rgb(6, 6, 129) ;
+    width:100%; height:auto;
+    font-family:monospace;
+}
+footer.mainF h3{font-weight:bolder;
+    text-align:center;
+    margin-bottom: 5px;
+}
+footer.mainF ul.nearFooter{
+    margin-bottom:5px;
+    margin-left:20%; margin-right:20%;
+    font-size: 10pt;
+    display: flex; gap:15px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+p.nearFooter{
+    font-weight: lighter; font-size:10pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
